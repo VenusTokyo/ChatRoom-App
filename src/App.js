@@ -124,7 +124,7 @@ function ChatMessage(props) {
 
   return (<>
     <div className={`message ${messageClass}`}>
-      <img src= {`https://avatars.dicebear.com/api/pixel-art-neutral/${uid}.svg`}/>
+      <img src= {`https://avatars.dicebear.com/api/pixel-art-neutral/${uid}.svg`} alt="error"/>
       <p>{text}</p>
     </div>
   </>)
